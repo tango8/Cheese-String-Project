@@ -8,7 +8,12 @@ It webscrapes online databases to find the best cheese or cheese property for th
 ## How it works
 1. The user inputs any extra urls, or skips
 2. The user inputs any cheese properties that they want a suggestion for, e.g. 'hard german'
-3. The program takes and processes data from the predefined urls and any extra urls given as a String
-   * 
+3. The program takes and processes data from the predefined urls(listet below) and any extra urls given as a String
+   * List of Spanish Cheeses Wikipedia
+   * List of Italian Cheeses Wikipedia
+   * List of Greek Protected Designations of Origin Cheeses
+   * List of German Cheeses Wikipedia
+   * List of Dutch Cheeses Wikipedia
+   * Serbian Cheeses Wikipedia
 5. The program outputs any specific cheese or suggestions that match the given properties in the urls
 
