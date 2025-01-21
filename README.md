@@ -11,7 +11,7 @@ It webscrapes online databases to find the best cheese or cheese property for th
 3. The program takes and processes data from the predefined urls(listet below) and any extra urls given as a String
    * List of Spanish Cheeses Wikipedia
    * List of Italian Cheeses Wikipedia
-   * List of Greek Protected Designations of Origin Cheeses
+   * List of Greek Protected Designations of Origin Cheeses Wikipedia
    * List of German Cheeses Wikipedia
    * List of Dutch Cheeses Wikipedia
    * Serbian Cheeses Wikipedia
