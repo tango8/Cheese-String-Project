@@ -6,7 +6,7 @@ It webscrapes online databases to find the best cheese or cheese property for th
 The motivation for this project is to create a cheese finder for those bored of the normal cheeses of everyday life, and for the practicing of string methods and webscraping. 
 
 ## Demo
-[![Watch the video](https://raw.githubusercontent.com/tango8/Cheese-String-Project/main/assets/CheeseStringProjectDemo.png)](https://raw.githubusercontent.com/tango8/Cheese-String-Project/main/assets/Cheese%20String%20Project%20Demo.mov)
+[![Watch the video](https://raw.githubusercontent.com/tango8/Cheese-String-Project/blob/main/CheeseStringProjectDemo.png)](https://raw.githubusercontent.com/tango8/Cheese-String-Project/blob/main/Cheese%20String%20Project%20Demo.mov)
 
 ## How it works
 1. The user inputs any extra urls, or skips
