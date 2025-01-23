@@ -48,15 +48,17 @@ The motivation for this project is to create a cheese finder for those bored of 
 
 ## Call graph 
 (format credit - Deepseek AI)
-main
-├── addUrl
-│ └── (calls URI.create, URL.openConnection, HttpURLConnection.setRequestProperty, etc.)
-├── getPageContent
-│ └── (calls URI.toURL, URLConnection.setRequestProperty, BufferedReader.readLine, etc.)
-├── extractDiscreteCheeseData
-│ └── (calls String.substring, String.replace, String.replaceAll, etc.)
-├── findBestMatch
-│ └── countMatchingWords
+main 
+├── addUrl 
+│ └── (calls URI.create, URL.openConnection, 
+HttpURLConnection.setRequestProperty, etc.) 
+├── getPageContent 
+│ └── (calls URI.toURL, URLConnection.setRequestProperty, 
+BufferedReader.readLine, etc.) 
+├── extractDiscreteCheeseData 
+│ └── (calls String.substring, String.replace, String.replaceAll, etc.)  
+├── findBestMatch 
+│ └── countMatchingWords 
 └── countMatchingWords
 
 
