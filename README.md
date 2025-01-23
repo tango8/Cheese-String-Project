@@ -1,31 +1,17 @@
-# Cheese-String-Project
-Cheese Finder is a project focused primarily on the usage of Strings and String methods to help you find the best cheese for your input properties. 
+# Cheese-string-Project
+Cheese Finder is a project focused primarily on the usage of strings and string methods to help you find the best cheese for your input properties. 
 It webscrapes online databases to find the best cheese or cheese property for the given properties.
 
 ## Motivation
-The motivation for this project is to create a cheese finder for those bored of the normal cheeses of everyday life, and for the practicing of String methods and webscraping. 
-### String methods include:
-* .trim()
-*   h
-* .toLowerCase()
-* .indexOf()
-* .substring()
-* .replaceAll()
-* .replace()
-* .contains()
-* .equals()
-* .charAt()
-* .length()
-* .lastIndexOf()
+The motivation for this project is to create a cheese finder for those bored of the normal cheeses of everyday life, and for the practicing of string methods and webscraping. 
 
-
-## Attributes
+## Demo
 
 
 ## How it works
 1. The user inputs any extra urls, or skips
 2. The user inputs any cheese properties that they want a suggestion for, e.g. 'hard german'
-3. The program takes and processes data from the predefined urls(listet below) and any extra urls given as a String
+3. The program takes and processes data from the predefined urls(listet below) and any extra urls given as a string
    * List of Spanish Cheeses Wikipedia
    * List of Italian Cheeses Wikipedia
    * List of Greek Protected Designations of Origin Cheeses Wikipedia
@@ -33,4 +19,29 @@ The motivation for this project is to create a cheese finder for those bored of 
    * List of Dutch Cheeses Wikipedia
    * Serbian Cheeses Wikipedia
 5. The program outputs any specific cheese or suggestions that match the given properties in the urls
+
+### String methods include:
+* .trim()
+  * used to ensure extra spaces don't interfere with proecesses
+* .toLowerCase()
+  * default case to compare strings as
+* .indexOf()
+  * for locating the index of semicolons separating the URLs, as well as parsing the HTML
+* .substring()
+  * extracted each individual URL and word from the cheesedata, as well as taking what is needed from the HTML of the webpages
+* .replaceAll()
+  * uses regular expressions to remove all the HTML tags that would otherwise needed to be imported and removed one by one using .replace() 
+* .replace()
+  * replaces HTML entities and cleans up the output 
+* .contains()
+  * determines if a string contains an HTML tag, crucial for removing unwnted paragraphs, and to determine if a word matches an input
+* .equals()
+  * checks if the user inputs quit, or if a string is empty
+* .charAt()
+  * used to iterate through strings and skip spaces
+* .length()
+  * determines the length of words for setting iteration boundaries 
+* .lastIndexOf()
+  * locates the HTML tags that were crucial to keep the given wiki pages' formatting somewhat consistent  
+
 
