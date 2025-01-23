@@ -50,14 +50,15 @@ The motivation for this project is to create a cheese finder for those bored of 
 (format credit - Deepseek AI)
 main
 ├── addUrl
-│   └── (calls URI.create, URL.openConnection, HttpURLConnection.setRequestProperty, etc.)
+│ └── (calls URI.create, URL.openConnection, HttpURLConnection.setRequestProperty, etc.)
 ├── getPageContent
-│   └── (calls URI.toURL, URLConnection.setRequestProperty, BufferedReader.readLine, etc.)
+│ └── (calls URI.toURL, URLConnection.setRequestProperty, BufferedReader.readLine, etc.)
 ├── extractDiscreteCheeseData
-│   └── (calls String.substring, String.replace, String.replaceAll, etc.)
+│ └── (calls String.substring, String.replace, String.replaceAll, etc.)
 ├── findBestMatch
-│   └── countMatchingWords
+│ └── countMatchingWords
 └── countMatchingWords
+
 
 
 
