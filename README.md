@@ -77,4 +77,10 @@ BufferedReader.readLine, etc.)
 2. Clone this repository:  
    ```bash
    git clone https://github.com/tango8/Cheese-String-Project.git
-3. Navigate to the directory
+3. Make sure you're in the right directory
+   ```bash
+   find / -type f -name "CheeseFinder.java" 2>/dev/null
+4. Compile and run the program
+   ```bash
+   javac CheeseFinder.java
+   java CheeseFinder
