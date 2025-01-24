@@ -72,6 +72,9 @@ BufferedReader.readLine, etc.)
 
 └── countMatchingWords
 
-
-
-
+## Installation
+1. Ensure you have **Java 8** or higher installed.  
+2. Clone this repository:  
+   ```bash
+   git clone https://github.com/tango8/Cheese-String-Project.git
+3. Navigate to the directory
