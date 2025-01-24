@@ -80,6 +80,8 @@ BufferedReader.readLine, etc.)
 3. Make sure you're in the right directory
    ```bash
    find / -type f -name "CheeseFinder.java" 2>/dev/null
+   # Change your directory to the listed directories if you're not already in it
+   cd /path/to/directory/containing/CheeseFinder.java
 4. Compile and run the program
    ```bash
    javac CheeseFinder.java
