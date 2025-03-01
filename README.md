@@ -2,6 +2,24 @@
 Cheese Finder is a project focused primarily on the usage of strings and string methods to help you find the best cheese for your input properties. 
 It webscrapes online databases to find the best cheese or cheese property for the given properties.
 
+## Installation
+1. Ensure you have **Java 8** or higher installed.
+  
+2. Clone this repository:  
+   ```bash
+   git clone https://github.com/tango8/Cheese-String-Project.git
+
+3. Make sure you're in the right directory
+   ```bash
+   find / -type f -name "CheeseFinder.java" 2>/dev/null # searches your whole system; from root directory
+   # Change your directory to the listed directories if you're not already in it
+   cd /path/to/directory/containing/CheeseFinder.java
+
+4. Compile and run the program
+   ```bash
+   javac CheeseFinder.java
+   java CheeseFinder
+
 ## Motivation
 The motivation for this project is to create a cheese finder for those bored of the normal cheeses of everyday life, and for the practicing of string methods and webscraping. 
 
@@ -89,21 +107,3 @@ BufferedReader.readLine, etc.)
 │ └── countMatchingWords 
 
 └── countMatchingWords
-
-## Installation
-1. Ensure you have **Java 8** or higher installed.
-  
-2. Clone this repository:  
-   ```bash
-   git clone https://github.com/tango8/Cheese-String-Project.git
-
-3. Make sure you're in the right directory
-   ```bash
-   find / -type f -name "CheeseFinder.java" 2>/dev/null # searches your whole system; from root directory
-   # Change your directory to the listed directories if you're not already in it
-   cd /path/to/directory/containing/CheeseFinder.java
-
-4. Compile and run the program
-   ```bash
-   javac CheeseFinder.java
-   java CheeseFinder
