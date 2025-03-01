@@ -14,7 +14,7 @@ The motivation for this project is to create a cheese finder for those bored of 
 
 2. The user inputs any cheese properties that they want a suggestion for, e.g. 'hard german'
 
-3. The program takes and processes data from the predefined urls(listet below) and any extra urls given as a string
+3. The program takes and processes data from the predefined urls(listed below) and any extra urls given as a string
  
    * List of Spanish Cheeses Wikipedia
    * List of Italian Cheeses Wikipedia
